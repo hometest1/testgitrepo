@@ -16,8 +16,8 @@ jobs:
       - IN: new-image1
       - IN: t111
      
-  - name: rungitrepotest
-    type: runSh
+  - name: runCLIgitrepotest
+    type: runCLI
     steps:
       - IN: sampletestmaster
       - IN: t111
