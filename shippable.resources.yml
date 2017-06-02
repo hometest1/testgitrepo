@@ -3,21 +3,21 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiphitchcock4/sample-script
+      sourceName: hometest1/sample-script
       branch: master
   
   - name: sampletestmaster
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiphitchcock4/sample-script
+      sourceName: hometest1/sample-script
       branch: master
       
   - name: notusing
     type: gitRepo
     integration: github
     pointer:
-      sourceName: shiphitchcock4/sample-script
+      sourceName: hometest1/sample-script
       branch: master    
       
   - name: pipeline_scriptRepo
