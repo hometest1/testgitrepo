@@ -20,9 +20,9 @@ resources:
       sourceName: hometest1/sample-script
       branch: master    
       
-  - name: pipeline_scriptRepo
-    type: integration
-    integration: "key-test"
+ # - name: pipeline_scriptRepo
+   ## type: integration
+   # integration: "key-test"
       
       
       
