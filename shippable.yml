@@ -12,7 +12,7 @@ build:
     - echo $foo
     - echo $testsubs1
     - echo $testpros
-    - sleep 5m
+    - sleep 7m
 
 
 
