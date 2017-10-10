@@ -9,6 +9,10 @@ resources:
   - name: key-test2334
     type: integration
     integration: "key-test"
+    
+  - name: newssh
+    type: integration
+    integration: newssh
       
 #  - name: new-image1
  #   type: image
