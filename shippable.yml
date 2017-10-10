@@ -12,7 +12,10 @@ build:
     - echo $foo
     - echo $testsubs1
     - echo $testpros
-    - sleep 1m
-
+    #- sleep 1m
+integrations:
+  key:
+    - integrationName: newssh
+      type: ssh-key
 
 
