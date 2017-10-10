@@ -14,7 +14,7 @@ build:
     - echo $testpros
     #- sleep 1m
 integrations:
-  key:
+  generic:
     - integrationName: newssh
       type: sshkey
 
