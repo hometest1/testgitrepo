@@ -16,6 +16,6 @@ build:
 integrations:
   key:
     - integrationName: newssh
-      type: ssh-key
+      type: sshkey
 
 
