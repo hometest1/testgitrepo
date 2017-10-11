@@ -9,6 +9,7 @@ build:
   ci:          
     - node --version
     - sudo docker images
+    - cat /tmp/ssh/newssh
     - echo $foo
     - echo $testsubs1
     - echo $testpros
