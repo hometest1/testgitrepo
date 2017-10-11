@@ -8,7 +8,7 @@ node_js:
 build:     
   ci:          
     - node --version
-    - cat /tmp/ssh/newssh
+    - cat /tmp/ssh/pemnew
     - sudo docker images
     - echo $foo
     - echo $testsubs1
@@ -16,7 +16,7 @@ build:
     #- sleep 1m
 integrations:
   key:
-    - integrationName: newssh
-      type: ssh-key
+    - integrationName: pemnew
+      type: pem-key
 
 
